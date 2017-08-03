@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Todo from './Todo';
 
+// TodoList is a list showing visible todos.
+// todos: Array is an array of todo items with { id, text, completed } shape.
+// onTodoClick(id: number) is a callback to invoke when a todo is clicked.
+
 const TodoList = ({ todos, onTodoClick }) => (
   <ul>
     {todos.map(todo => (

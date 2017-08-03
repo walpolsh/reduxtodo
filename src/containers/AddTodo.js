@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { addTodo } from '../actions';
 
+//AddTodo is an input field with an “Add” button
+
 let AddTodo = ({ dispatch }) => {
   let input;
 
